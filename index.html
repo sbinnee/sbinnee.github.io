@@ -6,6 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seongbin's Webpage</title>
   <link rel='stylesheet' type='text/css' href='style.css'>
+  <script>
+    var fg = "#333";
+    var bg = "#FEFEFE";
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelector("#dark-switch").onclick = printdata;
+    })
+    
+
+    function printdata() {
+      if (document.querySelector("#dark-switch").checked == true) {
+        document.body.style.color = bg;
+        document.body.style.background = fg;
+        console.log("Dark mode on")
+      } else {
+        document.body.style.color = fg;
+        document.body.style.background = bg;
+        console.log("Dark mode off");
+      }
+      
+    }
+  </script>
 </head>
 
 <body>
@@ -15,7 +37,9 @@
     <h1>Seongbin Lim</h1>
     <h2>Towards Machine Learning</h2>
   </div>
-  
+  <div>
+    <input type="checkbox" id="dark-switch" name="dark-switch" value="dark">DARK MODE
+  </div>
   <!-- container-head:child2 -->
   <ul>
     <div class="container-contact">
