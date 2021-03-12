@@ -11,11 +11,11 @@
     var bg = "#FEFEFE";
     
     document.addEventListener('DOMContentLoaded', function() {
-      document.querySelector("#dark-switch").onclick = printdata;
+      document.querySelector("#dark-switch").onclick = darken;
     })
     
 
-    function printdata() {
+    function darken() {
       if (document.querySelector("#dark-switch").checked == true) {
         document.body.style.color = bg;
         document.body.style.background = fg;
