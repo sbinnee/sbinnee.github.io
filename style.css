@@ -1,72 +1,72 @@
 ::selection {
-    color: #FFF;
-    background: #EA5FC9;
-  }
+  color: #FFF;
+  background: #EA5FC9;
+}
 
-  body {
-    font-family: Georgia, 'Times New Roman', Times, sans-serif;
-    max-width: 50em;
-    margin: auto;
-    margin-top: 10px;
-    padding: 20px;
-    color: #333;
-    background: #FEFEFE;
-    border-left: #777;
-    border-left-width: 2px;
-    border-left-style: solid;
-  }
+body {
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+  max-width: 50em;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+  color: #333;
+  background: #FEFEFE;
+  border-left: #777;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
 
-  h2 {
-    font-family: monospace;
-  }
+h2 {
+  font-family: monospace;
+}
 
-  li {
-    list-style-type: none
-  }
+li {
+  list-style-type: none
+}
 
-  a {
-    color: inherit;
-  }
-  a:hover {
-    color: #EA5FC9;
-  }
+a {
+  color: inherit;
+}
+a:hover {
+  color: #EA5FC9;
+}
 
-  dd {
-    /* padding-left: 1em; */
-    /* margin-bottom: 0.6em; */
-  }
-  dt {
-    font-family: monospace;
-    font-size: medium;
-    font-weight: 600;
-    float: left;
-    clear: left;
-  }
+dd {
+  /* padding-left: 1em; */
+  /* margin-bottom: 0.6em; */
+}
+dt {
+  font-family: monospace;
+  font-size: medium;
+  font-weight: 600;
+  float: left;
+  clear: left;
+}
 
-  .org {
-    font-style: italic;
-  }
+.org {
+  font-style: italic;
+}
 
-  .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    font-size: inherit;
-    vertical-align: -0.125em;
-  }
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: inherit;
+  vertical-align: -0.125em;
+}
 
-  .container-head {
+.container-head {
+  display: grid;
+  /* grid-template-columns: auto auto; */
+  text-align: left;
+}
+
+.container-contact {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: end;
+}
+
+.container-bio {
     display: grid;
-    /* grid-template-columns: auto auto; */
-    text-align: left;
-  }
-
-  .container-contact {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: end;
-  }
-  
-  .container-bio {
-      display: grid;
-  }
+}
