@@ -3,6 +3,12 @@
   background: #EA5FC9;
 }
 
+/* Dark mode using CSS */
+:has(#dark-switch:checked) body {
+  color: #FEFEFE;
+  background: #333;
+}
+
 body {
   font-family: Georgia, 'Times New Roman', Times, sans-serif;
   max-width: 50em;
