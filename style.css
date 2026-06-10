@@ -30,6 +30,22 @@ li {
   list-style-type: none
 }
 
+.highlight-list li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 0.2em;
+  margin-left: -1em;
+}
+
+.highlight-list li::before {
+  content: "* ";
+  color: #EA5FC9;
+  position: relative;
+  left: 0;
+  /* font-size: 1.4em; */
+  line-height: 1;
+}
+
 a {
   color: inherit;
 }
